@@ -1,367 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang=en>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banshaj Paudel - Bhairu</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta charset=UTF-8 />
+    <meta name=description content="Free coming soon template">
+    <meta name=author content="Pawel Zuchowski">
+    <meta name=viewport content="width=device-width,initial-scale=1" />
+    <meta http-equiv=X-UA-Compatible content="ie=edge" />
+    <link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css
+        integrity=sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO crossorigin=anonymous>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel=stylesheet>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;700&display=swap" rel=stylesheet>
+    <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+    <script src=https://kit.fontawesome.com/3c09bcb51a.js></script>
+    <title>Coming Soon</title>
+    <link href="styles/main.css" rel="stylesheet">
 </head>
-<body class="main-content">
-    <header class="container header active" id="home">
-        <div class="header-content">
-            <div class="left-header">
-                <div class="h-shape"></div>
-                <div class="image">
-                    <img src="img/hero.jpg" alt="">
-                </div>
-            </div>
-            <div class="right-header">
-                <h1 class="name">
-                    Hi, I'm <span>Banshaj Paudel.</span>
-                </h1>
-                <h2>A technology enthusiast.</h2>
-                <p>
-                    I'm a Developer and I love to create functional websites.
-                    I work mostly with Python to create backend services. I am not
-                    limited to any particular technology. I learn new things everyday and am always 
-                    open to new ideas.
-                </p>
-                <div class="btn-con" target="_blank">
-                    <a href="files/Resume.pdf" target="_blank" class="main-btn">
-                        <span class="btn-text" target="_blank">Download CV</span>
-                        <span class="btn-icon" target="_blank"><i class="fas fa-download"></i></span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </header>
-    <main>
-        <section class="container about" id="about">
-            <div class="main-title">
-                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
-            </div>
-            <div class="about-container">
-                <div class="left-about">
-                    <h4>TL;DR</h4>
-                    <p>
-                        I am currently a student at 
-                        <span style="color:#b18fef !important;">Tribhuvan University, Kathmandu</span>.
-                        I participate in hackathons and also mentor in them. So far I have participated in 5 national and 4 international hackathons. 
-                        I also have mentored in 1 hackathon. I love to work and learn new technologies.
-                        My interests lies in developing solutions using technology for real world problems. I have also 
-                        worked on few such projects like smartglasses for the visually impaired people, security system 
-                        for protection against illegal logging, poaching and forest fire.
 
-                    </p>
-                    <div class="btn-con">
-                        <a href="files/Resume.pdf" target="_blank" class="main-btn">
-                            <span class="btn-text" target="_blank">Download CV</span>
-                            <span class="btn-icon" target="_blank"><i class="fas fa-download"></i></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="right-about">
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">10+</p>
-                            <p class="small-text">Personal Projects <br /> Completed</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">1.5</p>
-                            <p class="small-text">Years of <br /> experience in tech</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">3</p>
-                            <p class="small-text">Open Source <br /> Projects Contributed</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">10+</p>
-                            <p class="small-text">Students <br /> helped and helping more</p>
-                        </div>
-                    </div>
+<body>
+    <div class=container>
+        <div class=row>
+            <div class="left-wrap col-12 col-md-5">
+                <div class=left>
+                    <p><span class=days></span><span class=small> days</span></p>
+                    <p><span class=hours></span><span class=small> hours</span></p>
+                    <p>&nbsp;&nbsp;<span class=minutes></span><span class=small> minutes</span></p>
+                    <p>&nbsp;&nbsp;<span class=seconds></span><span class=small> seconds</span></p>
                 </div>
             </div>
-            <div class="about-stats">
-                <h4 class="stat-title">My Skills</h4>
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="prog-title">html5</p>
-                        <img class="about-icons" src="img/html.webp" alt="html5">
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">css3</p>
-                        <img class="about-icons" src="img/css.webp" alt="css3">
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">javascript</p>
-                        <img src="img/js.webp" alt="" class="about-icons">
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Python</p>
-                        <img src="img/python.png" alt="" class="about-icons">
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Firebase</p>
-                        <img src="img/firebase.png" alt="" class="about-icons">
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">MySQL</p>
-                        <img src="img/mysql.webp" alt="" class="about-icons" style="height:130px; width: 180px;">
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Flask</p>
-                        <img src="img/flask.png" alt="" class="about-icons" style="height:130px; width: 330px;">
-                    </div>
+            <div class="col-12 col-md-7 right">
+                <div class=mainInfo>
+                    <h1>COMING SOON</h1>
+                    <p class=slogan>The new portfolio website is under construction. Please contact me through below</p>
                 </div>
+                <ul class=icon-list>
+                    <li class=icon><a class=X href=https://x.com/BanshajPaudel></a></li>
+                    <li class=icon><a class=linkedin href=https://linkedin.com/in/banshaj></a></li>
+                    <li class=icon><a class=facebook href=https://www.facebook.com/bhairu.tribrid></a></li>
+                    <li class=icon><a class=instagram href=https://www.instagram.com/banshaj_tribrid></a></li>
+                    <li class=icon><a class=github href=https://github.com/Banshaj-Paudel></a></li>
+                    <li class=icon><a class=email href=mailto:banshajpaudel5010@gmail.com></a></li>  
+                    <li class=icon><a class=resume href=Resume.pdf></a></li>    
+                </ul>
             </div>
-            <h4 class="stat-title">My Timeline</h4>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <!-- <i class="fas fa-briefcase"></i> -->
-                        <img src="img/askbuddie.png" class="timeline-icons" alt="">
-                    </div>
-                    <p class="tl-duration">2021 - Present</p>
-                    <h5>Community Developer<span> - AskBuddie</span></h5>
-                    <p>
-                        An open-source community of tech enthusiasts who are passionate about learning and sharing knowledge.
-                        We provide a platform for people to learn and share their knowledge with others. We also host 
-                        events and workshops to help people learn new things.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <!-- <i class="fas fa-briefcase"></i> -->
-                        <img src="img/sftf.png" alt="" class="timeline-icons">
-                    </div>
-                    <p class="tl-duration">2022 July - 2022 October</p>
-                    <h5>Asia Regional Finalist<span> - Seeds for the Future, Huawei.</span></h5>
-                    <p>
-                        Selected as the Asia Regional Finalist for "Seeds for the Future" program.
-                        It taught us about Artificial Intelligence, Cloud Computing, Digital Power, and 5G in Thailand.
-                        We also won the Tech4Good competition, where our team had developed a blockchain based 
-                        Fraudulent detection system for pharmaceutical products and were selected as the Top 7 teams 
-                        to attend the Tech4Good Accelerator Camp in Singapore. 
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <p class="tl-duration">2020 - Present</p>
-                    <h5>Student<span> - Tribhuvan University</span></h5>
-                    <p>
-                        A second year undergraduate student at Tribhuvan University, Kathmandu pursuing 
-                        Bachelor's degree in Computer Application.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="container" id="portfolio">
-            <div class="main-title">
-                <h2><span></span>Projects<span class="bg-text">My Work</span></h2>
-            </div>
-            <p class="port-text">
-                These are some of my projects which are partially open-source as prototypes only.
-            </p>
-            <div class="portfolios">
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/phaunus.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Phaunus</h3>
-                        <div class="icons">
-                            <a href="https://github.com/BhairuTribrid/Phaunus" class="icon" target="_blank">
-                                <i class="fab fa-github" target="_blank"></i>
-                            </a>
-                            <a href="https://devfolio.co/projects/phaunus-f3e2" class="icon" target="_blank">
-                                <i class="fa fa-blog" target="_blank"></i>
-                            </a>
-                            <a href="https://youtu.be/kMlm2GLlz6U" class="icon" target="_blank">
-                                <i class="fab fa-youtube" target="_blank"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/drishya.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Drishya</h3>
-                        <div class="icons">
-                            <a href="https://github.com/Nadika18/HacksnCrafts2" class="icon" target="_blank">
-                                <i class="fab fa-github" target="_blank"></i>
-                            </a>
-                            <a href="https://devfolio.co/projects/drishya-d60f" class="icon" target="_blank">
-                                <i class="fa fa-blog" target="_blank"></i>
-                            </a>
-                            <a href="https://youtu.be/e6gUTNLgWXM" class="icon" target="_blank">
-                                <i class="fab fa-youtube" target="_blank"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-        </section>
-        <section class="container" id="blogs">
-            <div class="blogs-content">
-                <div class="main-title">
-                    <h2>My <span>Blogs</span><span class="bg-text">My Blogs</span></h2>
-                </div>
-                <div class="blogs">
-                    <div class="blog">
-                        <a href="https://medium.com/@banshaj/how-did-i-choose-cybersecurity-
-                                as-a-career-and-how-am-i-working-on-it-bad82118e8dc" target="_blank">
-                            <img src="img/blog1.jpeg" alt="">
-                        </a>
-                        <div class="blog-text">
-                            <h4>
-                                <a href="https://medium.com/@banshaj/how-did-i-choose-cybersecurity-
-                                as-a-career-and-how-am-i-working-on-it-bad82118e8dc" target="_blank">
-                                How did I choose cybersecurity as a career and how am I working on it?
-                            </a>
-                            </h4>
-                            <p>
-                                How I started my journey in technology and how I chose cybersecurity as my career.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <a href="https://medium.com/@banshaj/huawei-seeds-for-the-future-2022-c3cbd4b59c13" 
-                        target="_blank">
-                            <img src="img/blog2.webp" alt="">
-                        </a>
-                        <div class="blog-text">
-                            <h4>
-                                <a href="https://medium.com/@banshaj/huawei-seeds-for-the-future-2022-c3cbd4b59c13" 
-                                target="_blank">Huawei Seeds for the Future 2022</a>
-                            </h4>
-                            <p>
-                                My experience on being selected as an Asia Regional Finalist for 
-                                Huawei Seeds for the Future 2022 and attending programs in Thailand and Singapore.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <a href="https://banshaj.medium.com/coded-beginnings-a-journey-into-your-first-hackathon-d1d3e10ce9a7" 
-                        target="_blank">
-                            <img src="img/team_pnp.png" alt="" style="height: 100%; width: 100%;">
-                        </a>
-                        <div class="blog-text">
-                            <h4>
-                                <a href="https://banshaj.medium.com/coded-beginnings-a-journey-into-your-first-hackathon-d1d3e10ce9a7" 
-                                target="_blank">Coded Beginnings: A Journey into Your First Hackathon</a>
-                            </h4>
-                            <p>
-                                A comprehensive series of guide for elevating your experience of joining your first hackathon to organizing it.
-                            </p>
-                        </div>
-                    </div>
-        </section>
-        <section class="container contact" id="contact">
-            <div class="contact-container">
-                <div class="main-title">
-                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
-                </div>
-                <div class="contact-content-con">
-                    <div class="left-contact">
-                        <h4>Contact me here</h4>
-                        <p>
-                            You can contact me for development work, help, suggestions, or any other work related to
-                            technology. I'll try to respond as soon as possible. I am also available for tutoring.
-                        </p>
-                        <div class="contact-info">
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <span>Location</span>
-                                </div>
-                                <p>
-                                    : Kathmandu, Nepal
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-envelope"></i>
-                                    <span>Email</span>
-                                </div>
-                                <p>
-                                    <span>: banshajpaudel5010@gmail.com</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-user-graduate"></i>
-                                    <span>Education</span>
-                                </div>
-                                <p>
-                                    <span>: Tribhuvan University, Nepal</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-globe-africa"></i>
-                                    <span>Languages</span>
-                                </div>
-                                <p>
-                                    <span>: English, Nepali, Hindi, Bhojpuri</span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="contact-icons">
-                            <div class="contact-icon">
-                                <a href="https://www.facebook.com/bhairu.tribrid" target="_blank">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="https://twitter.com/BanshajPaudel" target="_blank">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="https://github.com/BhairuTribrid/" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://www.linkedin.com/in/banshaj/" target="_blank">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <div class="controls">
-        <div class="control active-btn" data-id="home" >
-            <i class="fas fa-home"></i>
-        </div>
-        <div class="control" data-id="about">
-            <i class="fas fa-user"></i>
-        </div>
-        <div class="control" data-id="portfolio">
-            <i class="fas fa-briefcase"></i>
-        </div>
-        <div class="control" data-id="blogs">
-            <i class="far fa-newspaper"></i>
-        </div>
-        <div class="control" data-id="contact">
-            <i class="fas fa-envelope-open"></i>
         </div>
     </div>
-    <div class="theme-btn">
-        <i class="fas fa-adjust"></i>
-    </div>
-    <script src="app.js"></script>
+    <script type="text/javascript" src="scripts/bundle.js"></script>
+ 
 </body>
+
 </html>
